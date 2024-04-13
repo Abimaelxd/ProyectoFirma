@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDFSigner - Firma de PDF en línea</title>
+    <link rel="stylesheet" href="principal.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido a PDFSigner</h1>
+        <p>En PDFSigner, te ofrecemos una solución simple y segura para firmar tus documentos PDF en línea. ¡Firma tus documentos con facilidad desde cualquier lugar y en cualquier momento!</p>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="fileInput" accept=".pdf" style="display: none;">
+            <label for="fileInput" class="btn">Seleccionar Archivo PDF</label>
+        </form>
+        <div id="pdfPreview" class="pdf-preview-container">
+            <iframe id="pdfViewer" class="pdf-preview" src="" frameborder="0"></iframe>
+        </div>
+        <button id="signButton" class="btn">Iniciar Firma Digital</button>
+        <div id="feedbackMessage" class="feedback-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

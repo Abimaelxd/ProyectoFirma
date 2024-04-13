@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://images.pexels.com/photos/1809644/pexels-photo-1809644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.input-group {
+    border-radius: 10px;
+    padding: 11px;
+    margin-bottom: 20px;
+}
+.register-container{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 13px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+.input-group label {
+    display: block;
+}
+
+.input-group input {
+    padding: 10px;
+    border-radius: 5px; /* Reduje el radio del borde */
+    border: 2px solid black;
+}
+
+button {
+    width: 100%; /* Establecí el ancho completo */
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(20, 234, 38);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ajusté la sombra */
+}
+
+button:hover {
+    background-color: greenyellow;
+}
